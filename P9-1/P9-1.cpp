@@ -48,6 +48,6 @@ cout << endl;
 cout << "First and Last: ";
 cout << arr[0] << " " << arr[size - 1];
 cout << endl;
-
+ 
     return 0;
 }
