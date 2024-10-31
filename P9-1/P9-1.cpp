@@ -5,24 +5,20 @@ using namespace std;
 
 int main() {
     const int size = 10; // Size of the array
-    int array[size];
-    const int upper = 9999;
-    const int lower = 1000;
+    int arr[size];
 
-    // Seed the random number generator
     srand(time(0));
 
-    // Initialize the array with random values
+    // Initialize the array with random 4-digit values
     for (int i = 0; i < size; ++i) {
-        array[i] = rand() % (upper - lower + 1) + lower; // Random values between 1000 and 9999
+        arr[i] = 1000 + rand() % 9000; // Random values between 1000 and 9999
     }
 
-    // Print the array
-    cout << "Random array: ";
+    // Every element in order of appearance
+    cout << "The random integers: ";
     for (int i = 0; i < size; ++i) {
-        cout << array[i] << " ";
-    }
-    cout << endl;
+    cout << arr[i] << " "; }
+cout << endl;
 
-    return 0;
+return 0;
 }
