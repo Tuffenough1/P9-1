@@ -17,16 +17,25 @@ int main() {
     // Every element in order of appearance
     cout << "The random integers: ";
     for (int i = 0; i < size; ++i) {
-    cout << arr[i] << " "; }
+    cout << arr[i] << " "; 
+    }
 cout << endl;
 
     // Every element even index
     cout << "Even indices: ";
     for (int i = 0; i < size; i += 2) {
-        cout << arr[i] << " "; }
+        cout << arr[i] << " "; 
+    }
+cout << endl;
 
-
-
+    // Every element even
+    cout << "Even values: ";
+    for (int i = 0; i < size; i += 2) {
+        if (arr[i] % 2 == 0) {
+            cout << arr[i] << " ";
+        }
+    }
+cout << endl;
 
 
 
