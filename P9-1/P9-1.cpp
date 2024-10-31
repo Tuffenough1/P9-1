@@ -20,5 +20,16 @@ int main() {
     cout << arr[i] << " "; }
 cout << endl;
 
-return 0;
+    // Every element even index
+    cout << "Even indices: ";
+    for (int i = 0; i < size; i += 2) {
+        cout << arr[i] << " "; }
+
+
+
+
+
+
+
+    return 0;
 }
