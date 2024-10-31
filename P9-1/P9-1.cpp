@@ -15,21 +15,21 @@ int main() {
     }
 
     // Every element in order of appearance
-    cout << "The random integers: ";
+cout << "The random integers: ";
     for (int i = 0; i < size; ++i) {
-    cout << arr[i] << " "; 
+        cout << arr[i] << " "; 
     }
 cout << endl;
 
     // Every element even index
-    cout << "Even indices: ";
+cout << "Even indices: ";
     for (int i = 0; i < size; i += 2) {
         cout << arr[i] << " "; 
     }
 cout << endl;
 
     // Every element even
-    cout << "Even values: ";
+cout << "Even values: ";
     for (int i = 0; i < size; i += 2) {
         if (arr[i] % 2 == 0) {
             cout << arr[i] << " ";
@@ -37,7 +37,12 @@ cout << endl;
     }
 cout << endl;
 
-
+    // Reverse order
+cout << "All elements in reverse order: ";
+    for (int i = size - 1; i >= 0; i--) {
+        cout << arr[i] << " ";
+    }
+   cout << endl;
 
 
     return 0;
