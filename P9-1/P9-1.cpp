@@ -42,8 +42,12 @@ cout << "All elements in reverse order: ";
     for (int i = size - 1; i >= 0; i--) {
         cout << arr[i] << " ";
     }
-   cout << endl;
+cout << endl;
 
+    // First and Last
+cout << "First and Last: ";
+cout << arr[0] << " " << arr[size - 1];
+cout << endl;
 
     return 0;
 }
